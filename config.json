@@ -16,6 +16,12 @@
             "drawable-xhdpi": {
                 "icon.png": "96x96"
             },
+            "drawable-xxhdpi": {
+                "icon.png": "144x144"
+            },
+            "drawable-xxxhdpi": {
+                "icon.png": "192x192"
+            },
             "drawable-nodpi": {
                 "vr_icon.png": "512x512",
                 "vr_icon_background.png": "512x512"

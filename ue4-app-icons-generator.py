@@ -5,6 +5,7 @@
 """
 Usage:
     ue4-app-icons-generator.py <icon_path> <output_path>
+    ue4-app-icons-generator.py C:/icon.png C:/Workspace/Pirates/src/Build
 """
 
 
@@ -57,8 +58,8 @@ def iter_config(icon_file, output_path):
 
 if __name__ == "__main__":
     arguments = docopt(__doc__)
-    icon_path = arguments["--icon_path"]
-    output_path = arguments["--output_path"]
+    icon_path = arguments["<icon_path>"]
+    output_path = arguments["<output_path>"]
 
     print("icon path: %s" % icon_path)
     print("output path: %s" % output_path)
